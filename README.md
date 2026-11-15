@@ -25,7 +25,7 @@ The SHIFT theme is interpreted through radio frequency shifting. The signal you'
 | **Interact** | Pick up and put down the radio |
 | **↑ / ↓ buttons** | Adjust the frequency tuning |
 | **Morse** | Press and hold for a dot (short) or a dash (long) |
-| **Eye or** | Hold to close your eyes |
+| **Eye** | Hold to close your eyes |
 
 ## How to Open the Project
 
