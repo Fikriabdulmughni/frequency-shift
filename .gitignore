@@ -9,3 +9,17 @@ export_credentials.cfg
 Karakter/Cop/
 Object/
 Entity/enemy-lite/
+# Godot 4+ specific ignores
+.godot/
+/android/
+export_credentials.cfg
+*.keystore
+*.apk
+
+# Audio dengan lisensi belum jelas, tidak disertakan
+*.wav
+*.wav.import
+*.ogg
+*.ogg.import
+*.mp3
+*.mp3.import
