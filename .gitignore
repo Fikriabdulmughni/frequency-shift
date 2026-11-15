@@ -5,4 +5,7 @@ export_credentials.cfg
 *.keystore
 *.apk
 *.wav
-*.wav.import
+*.wav.importFont/jackwrite/
+Karakter/Cop/
+Object/
+Entity/enemy-lite/
