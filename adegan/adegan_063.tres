@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://cdu145dxfmq8p"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_qryrl"]
+
+[resource]
+script = ExtResource("1_qryrl")
+teks_narasi = "CUT_063"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

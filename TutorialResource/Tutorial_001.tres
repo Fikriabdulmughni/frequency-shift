@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HalamanTutorial" format=3 uid="uid://f56xbnp2m2dq"]
+
+[ext_resource type="Texture2D" uid="uid://djpte37hgnmj8" path="res://tutorial/Cutscene_ok.png" id="1_4q6op"]
+[ext_resource type="Script" uid="uid://gk8mdy5ydcys" path="res://halaman_tutorial.gd" id="2_f6nfo"]
+
+[resource]
+script = ExtResource("2_f6nfo")
+judul = "TUT_001_JUDUL"
+teks = "TUT_001_TEKS"
+gambar = ExtResource("1_4q6op")
+metadata/_custom_type_script = "uid://gk8mdy5ydcys"

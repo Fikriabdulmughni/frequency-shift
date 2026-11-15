@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://pdwsj4km3vht"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_1ay62"]
+
+[resource]
+script = ExtResource("1_1ay62")
+layar_hitam_penuh = true
+auto_lanjut = true
+jeda_auto_lanjut = 1.0
+atur_posisi_objek_manual = true
+target_objek_node = NodePath("cutscens3/VisualMonster")
+aksi_objek = 4
+teks_narasi = "CUT_070"
+warna_teks = Color(1, 0, 0, 1)
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

@@ -1,0 +1,53 @@
+[gd_scene format=4 uid="uid://kulvauctkhlq"]
+
+[ext_resource type="Texture2D" uid="uid://qxdwsyxlwllk" path="res://Cutscene/PSX Cardboard Boxes Asset Pack/Texture Atlas/CardboardBoxesTextureAtlas_T.png" id="1_nj30h"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m6iy4"]
+resource_name = "01 - Default"
+vertex_color_use_as_albedo = true
+emission_enabled = true
+emission = Color(0, 0, 0, 0)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ybg4s"]
+_surfaces = [{
+"aabb": AABB(-0.34615585, -0.34615585, 0, 0.6923117, 0.6923117, 0.6923117),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAwABAAAAAgAEAAAAAQADAAUABQACAAEABgAEAAIAAgAFAAYABwAAAAQAAAAHAAMABAAGAAcABQADAAcABwAGAAUA"),
+"name": "01 - Default",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("VzuxPlc7sT4AAAAAVzuxvlc7sT4AAAAAVzuxvlc7sb4AAAAAVzuxvlc7sT5XOzE/VzuxPlc7sb4AAAAAVzuxvlc7sb5XOzE/VzuxPlc7sb5XOzE/VzuxPlc7sT5XOzE/")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xjpyw"]
+resource_name = "Box009"
+_surfaces = [{
+"aabb": AABB(-0.34615585, -0.34615585, 0, 0.6923117, 0.6923117, 0.6923117),
+"attribute_data": PackedByteArray("rCEAQFBB1T+sIQBAsteqP3lWFUCy16o/eVYVQFBB1T/O1x9APDerPs7XH0DtUSo/OaoKQO1RKj85qgpAPDerPsSmfj/6MKs+xKZ+PzpFKj+0/v8+OkUqP7T+/z76MKs+3na3P3QLqz/edrc/tcTWP6C9iz+1xNY/oL2LP3QLqz9VLlVAyNqrPlUuVUDLUio//RRAQMtSKj/9FEBAyNqrPju/qj+Q8qo+O7+qP+pYKj9pT4A/6lgqP2lPgD+Q8qo+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_m6iy4"),
+"name": "01 - Default",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("VzuxPlc7sT4AAAAAVzuxvlc7sT4AAAAAVzuxvlc7sb4AAAAAVzuxPlc7sb4AAAAAVzuxPlc7sT5XOzE/VzuxPlc7sb5XOzE/Vzuxvlc7sb5XOzE/Vzuxvlc7sT5XOzE/VzuxPlc7sb5XOzE/VzuxPlc7sb4AAAAAVzuxvlc7sb4AAAAAVzuxvlc7sb5XOzE/VzuxPlc7sT5XOzE/VzuxPlc7sT4AAAAAVzuxPlc7sb4AAAAAVzuxPlc7sb5XOzE/Vzuxvlc7sT5XOzE/Vzuxvlc7sT4AAAAAVzuxPlc7sT4AAAAAVzuxPlc7sT5XOzE/Vzuxvlc7sb5XOzE/Vzuxvlc7sb4AAAAAVzuxvlc7sT4AAAAAVzuxvlc7sT5XOzE///////9/AID//////38AgP//////fwCA//////9/AID/f/9/////v/9//3////+//3//f////7//f/9/////v/9/AAD///+//38AAP///7//fwAA////v/9/AAD///+/////f/9///////9//3///////3//f///////f/9/////f///AAD/v/9///8AAP+//3///wAA/7//f///AAD/vwAA/3//fwCAAAD/f/9/AIAAAP9//38AgAAA/3//fwCA")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ybg4s")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wao0y"]
+albedo_texture = ExtResource("1_nj30h")
+
+[node name="Kotak Tutup" type="Node3D" unique_id=1243989785]
+
+[node name="CardboardBoxClosed6_SM" type="Node3D" parent="." unique_id=1056846662]
+
+[node name="Box009" type="MeshInstance3D" parent="CardboardBoxClosed6_SM" unique_id=1271141895]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+mesh = SubResource("ArrayMesh_xjpyw")
+surface_material_override/0 = SubResource("StandardMaterial3D_wao0y")

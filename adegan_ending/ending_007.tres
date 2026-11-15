@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://c2b7sa7eny6n0"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_2kc78"]
+[ext_resource type="AudioStream" uid="uid://p2p1it8ynxru" path="res://Audio/New/knockglass.wav" id="1_4kync"]
+[ext_resource type="AudioStream" uid="uid://b5nqoggh0vgo2" path="res://Audio/New/Alret.ogg" id="2_fdvjf"]
+
+[resource]
+script = ExtResource("1_2kc78")
+target_marker = NodePath("Cutscene/Cam5")
+durasi_gerak_kamera = 0.8
+teks_narasi = "END_007"
+warna_teks = Color(1, 0, 0, 1)
+aktifkan_getaran = true
+audio_player_2 = NodePath("CanvasLayer/AudioPlayer6")
+aksi_audio_2 = 1
+file_suara_2 = ExtResource("1_4kync")
+volume_db_2 = 5.379
+audio_player_3 = NodePath("CanvasLayer/AudioPlayer5")
+aksi_audio_3 = 1
+file_suara_3 = ExtResource("2_fdvjf")
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

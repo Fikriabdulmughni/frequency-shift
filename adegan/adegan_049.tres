@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://byhly47ir4tk7"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_5s1ff"]
+
+[resource]
+script = ExtResource("1_5s1ff")
+auto_lanjut = true
+anim_player_1 = NodePath("cutscens3/AnimationPlayer")
+aksi_animasi_1 = 1
+nama_animasi_1 = "kedip"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

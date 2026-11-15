@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://bsgtfejh7rgow"]
+
+[ext_resource type="Script" uid="uid://cd2uj6qyc85hv" path="res://scene_kematian.gd" id="1_mcpk4"]
+[ext_resource type="AudioStream" uid="uid://6tmwqy6xr70i" path="res://Audio/New/Deathsound.wav" id="3_jv1lc"]
+[ext_resource type="AudioStream" uid="uid://dio4nlkcwi3ls" path="res://Audio/dialogue.wav" id="4_j5xf0"]
+[ext_resource type="Texture2D" uid="uid://4j36vhjd80ka" path="res://Img/button_square_wide.png" id="5_7c2h0"]
+[ext_resource type="FontFile" uid="uid://fomo86abavey" path="res://Font/jackwrite/JackwriteBold.woff2" id="5_j5xf0"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mcpk4"]
+texture = ExtResource("5_7c2h0")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7c2h0"]
+texture = ExtResource("5_7c2h0")
+
+[node name="SceneKematian" type="Control" unique_id=660299273 node_paths=PackedStringArray("tombol_coba", "tombol_menu")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mcpk4")
+volume_sentakan = -20.0
+suara_glitch = ExtResource("3_jv1lc")
+volume_glitch = 2.5559999999999974
+suara_ketik = ExtResource("4_j5xf0")
+tombol_coba = NodePath("Button")
+tombol_menu = NodePath("Button2")
+scene_coba_lagi = "res://Gameplay.scn"
+durasi_fade_keluar = 1.015
+intensitas_awal_glitch_suara = 0.358
+intensitas_puncak_glitch_suara = 0.602
+
+[node name="Button" type="Button" parent="." unique_id=1518497007]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -36.0
+offset_right = 136.0
+offset_bottom = 36.0
+grow_vertical = 2
+pivot_offset_ratio = Vector2(2.333, 1.169)
+theme_override_fonts/font = ExtResource("5_j5xf0")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_mcpk4")
+text = "Coba Lagi"
+
+[node name="Button2" type="Button" parent="." unique_id=1535956916]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = 137.0
+offset_right = 136.0
+offset_bottom = 209.0
+grow_vertical = 2
+pivot_offset_ratio = Vector2(2.333, 1.169)
+theme_override_fonts/font = ExtResource("5_j5xf0")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_7c2h0")
+text = "Main Menu"

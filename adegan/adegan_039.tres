@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://clhubi2rrnfp5"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_dm86g"]
+
+[resource]
+script = ExtResource("1_dm86g")
+durasi_fade_masuk = 0.505
+durasi_jeda_gelap = 1.924
+durasi_fade_keluar = 0.138
+auto_lanjut = true
+atur_posisi_objek_manual = true
+target_objek_node = NodePath("cutscens3")
+aksi_objek = 5
+teks_narasi = "CUT_039"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

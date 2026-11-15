@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dwh2lptio6hyl"]
+
+[ext_resource type="Script" uid="uid://bgx5hjuuw8jfq" path="res://cek_terjemahan.gd" id="1_pdtqq"]
+
+[node name="CekGambar" type="Node3D" unique_id=1534584270]
+script = ExtResource("1_pdtqq")

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://brxx7m4uv7a2g"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_h3anu"]
+
+[resource]
+script = ExtResource("1_h3anu")
+target_marker = NodePath("cutscens3/Cam1")
+teks_narasi = "CUT_056"
+anim_player_1 = NodePath("cutscens3/AnimationPlayer")
+aksi_animasi_1 = 1
+nama_animasi_1 = "Walk"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

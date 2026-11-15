@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://bmjpmk1de7mqr"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_20gqi"]
+[ext_resource type="AudioStream" uid="uid://dsn0jqcdhurfl" path="res://Audio/Cricket.wav" id="1_48pr7"]
+
+[resource]
+script = ExtResource("1_20gqi")
+pakai_fade = true
+durasi_fade_masuk = 0.0
+durasi_jeda_gelap = 0.2
+durasi_fade_keluar = 0.2
+auto_lanjut = true
+jeda_auto_lanjut = 0.1
+tunggu_teks_selesai = true
+kurva_audio = 0
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer8")
+aksi_audio_1 = 1
+file_suara_1 = ExtResource("1_48pr7")
+fade_masuk_1 = 1.0
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://b6grhemkhgu2a"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_jd23t"]
+
+[resource]
+script = ExtResource("1_jd23t")
+pakai_fade = true
+durasi_fade_masuk = -0.9
+durasi_jeda_gelap = 1.0
+teks_narasi = "CUT_073"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

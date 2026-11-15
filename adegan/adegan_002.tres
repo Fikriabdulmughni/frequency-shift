@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://bes3icknghtpd"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_hrk53"]
+
+[resource]
+script = ExtResource("1_hrk53")
+target_marker = NodePath("KameraMarker/Kamera1")
+atur_posisi_objek_manual = true
+target_objek_node = NodePath("Pabrik/OmniLight3D2")
+aksi_objek = 5
+teks_narasi = "CUT_002"
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer1")
+aksi_audio_1 = 2
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

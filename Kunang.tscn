@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://1h5fmplnqv23"]
+
+[ext_resource type="Shader" uid="uid://d1uqpe51sdgpn" path="res://Kunang.gdshader" id="1_i5yyo"]
+[ext_resource type="Script" uid="uid://b5363fliuspy4" path="res://Kunang.gd" id="2_rs5ld"]
+
+[sub_resource type="Environment" id="Environment_g7b7a"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sfpyq"]
+render_priority = 0
+shader = ExtResource("1_i5yyo")
+shader_parameter/magic_color = Color(0.1, 0.9, 1, 1)
+shader_parameter/pulse_speed = 5.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_g7b7a"]
+material = SubResource("ShaderMaterial_sfpyq")
+
+[node name="Dinamis" type="Node3D" unique_id=1423587151]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=872779391]
+transform = Transform3D(0.037372902, 0, -0.99930143, 0, 1, 0, 0.99930143, 0, 0.037372902, -1.2805259, 0, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1393661717]
+environment = SubResource("Environment_g7b7a")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=368537956]
+mesh = SubResource("SphereMesh_g7b7a")
+script = ExtResource("2_rs5ld")

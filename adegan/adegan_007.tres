@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://b68blwy51i8f1"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_gmwx2"]
+
+[resource]
+script = ExtResource("1_gmwx2")
+target_marker = NodePath("KameraMarker/Kamera2")
+tipe_transisi = 1
+atur_posisi_objek_manual = true
+target_objek_node = NodePath("Pabrik/StorageBoxes")
+aksi_objek = 4
+teks_narasi = "CUT_007"
+anim_player_1 = NodePath("AnimationPlayer")
+aksi_animasi_1 = 2
+nama_animasi_1 = "Convenyor"
+aksi_audio_1 = 2
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

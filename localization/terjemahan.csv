@@ -1,0 +1,188 @@
+keys,en,id
+CUT_000,Senior: Thank you for helping me with my part.,Senior: Terima kasih sudah membantu bagianku.
+CUT_001,Me: ...,Saya: ...
+CUT_002,Senior: I'll give you the money after I finish cleaning up. Let's meet again at the parking lot.,Senior: Aku akan memberikan mu uang setelah aku selesai beres beres. Mari kita bertemu lagi di tempat parkir.
+CUT_003,"Me: Alright, sir.",Saya: Baiklah Pak
+CUT_005,Senior: Here's your money.,Senior: Ini uang mu.
+CUT_006,Senior: I won't talk long anymore...,Senior: Aku tidak akan berbicara panjang lebar lagi...
+CUT_007,Senior: I'm already sleepy and want to go to bed right away.,Senior: Aku sudah mengantuk dan ingin segera tidur.
+CUT_008,Me: ...,Saya: ...
+CUT_009,Me: Me too.,Saya: Aku juga sama
+CUT_010,Senior: Wait a moment.,Senior: Tunggu Sebentar.
+CUT_011,Senior: Are you going to drive this car?,Senior: Kamu akan menaiki mobil ini?
+CUT_012,Me: !?,Saya: !?
+CUT_013,Me: Yeah... Is something wrong?,Saya: Iya... Memangnya ada apa?
+CUT_014,"Senior: You can sleep at my place,","Senior: Kamu boleh tidur ditempatku saja,"
+CUT_015,Senior: I don't think it's good to drive in that half-conscious state.,Senior: Menurutku tidak baik berkendara dengan keadaan setengah sadar seperti itu.
+CUT_016,"Me: I'm fine, sir,","Saya: Saya baik baik saja pak,"
+CUT_017,"Me: It's not far from here to the inn, really.",Saya: Dari sini ke penginapan jaraknya cukup dekat kok.
+CUT_018,"Me: Don't worry, sir.",Saya: Jangan khawatir Pak.
+CUT_019,Senior: ...,Senior: ...
+CUT_020,"Senior: Alright, if that's what you want,","Senior: Baiklah jika itu maumu, "
+CUT_021,"Senior: Thanks for today, see you tomorrow!",Senior: Terima kasih untuk hari ini dan sampai jumpa besok!
+CUT_024,"Me: It's time for me to go home, I feel very sleepy now.","Saya: Sudah saat nya aku pulang, aku merasa mengantuk berat sekarang."
+CUT_025,Me: ...,Saya: ...
+CUT_026,Me: A compass?,Saya: Sebuah Kompas?
+CUT_027,Me: Whose is this?,Saya: Punya siapa ini?
+CUT_028,Me: There doesn't seem to be anyone else around here.,Saya: Sepertinya tidak ada orang lain disekitar sini.
+CUT_029,Me: Then I'll take it and bring it home for now.,Saya: Kalau begitu aku akan mengambilnya dan membawa pulang sementara.
+CUT_031,"Me: ""Senior is really kind...""","Saya: ""Senior itu baik sekali..."""
+CUT_032,"Me: ""I've only been working at the new factory for about 3 days""","Saya: ""Padahal aku bekerja di pabrik baru sekitar 3 hari"""
+CUT_033,"Me: ""Thank goodness I got accepted""","Saya: ""Syukurlah aku diterima"""
+CUT_035,...,...
+CUT_036,...,...
+CUT_037,"Me: ""It's really hard to resist this sleepiness.""","Saya: ""Ngomong ngomong sulit sekali menahan rasa kantuk ini."""
+CUT_038,...,...
+CUT_039,"Me: Damn, my eyes are so heavy~","Saya: Sial, Berat sekali mataku~"
+CUT_041,"Me: Damn, it hurts so much.","Saya: Sial, Sakit sekali."
+CUT_042,Me: My body won't move.,Saya: Tubuhku tidak mau bergerak.
+CUT_043,Me: Am I still alive after falling asleep while driving?,Saya: Apakah aku masih hidup setelah aku tertidur saat berkendara?
+CUT_044,"Me: Come on, at least I have to open my eyes...","Saya: Ayolah, setidaknya aku harus membuka mataku..."
+CUT_050,"Me: ""Damn it, I...""","Saya: ""Sialnya aku..."""
+CUT_051,"Me: ""Ouch!""","Saya: ""Ouchh!"""
+CUT_053,"Me: ""My jaw, chin, and legs won't work.""","Saya: ""Rahang, dagu dan kaki ku tidak bisa bekerja."""
+CUT_054,"Me: ""!""","Saya: ""!"""
+CUT_055,"Me: ""The compass, and the walkie talkie?""","Saya: ""Kompas, dan Walkie Talkie?"""
+CUT_056,Me: ...,Saya: ...
+CUT_057,"Me: ""Seems it still works""","Saya: ""Sepertinya masih berfungsi"""
+CUT_058,"Me: ""I'll keep this.""","Saya: ""Aku simpan ini."""
+CUT_059,"Me: ""But my voice won't work, how do I ask for help?""","Saya: ""Namun, suaraku tidak mau bekerja, bagaimana cara meminta pertolongan?"""
+CUT_060,"Me: ""Hmmm....""","Saya: ""Hmmm...."""
+CUT_061,Me: ...,Saya: ...
+CUT_062,...,...
+CUT_063,"Me: ""The last option is to use Morse code.""","Saya: ""Cara terakhir adalah dengan menggunakan kode Morse."""
+CUT_064,"Me: ""The frequency keeps shifting, especially in a forest like this...""","Saya: ""Namun frekuensinya terkadang berubah ubah, apalagi jika dalam hutan seperti ini..."""
+CUT_065,Me: ...,Saya: ...
+CUT_066,Me: !,Saya: !
+CUT_068,"Me: ""What was that just now!?""","Saya: ""Apa itu tadi!?"""
+CUT_069,"Me: ""It's horrifying!""","Saya: ""Dia mengerikan!"""
+CUT_070,Me: ...,Saya: ...
+CUT_071,...,...
+CUT_072,"Me: ""Can I open my eyes now?""","Saya: ""Apakah aku sudah boleh membuka mataku?"""
+CUT_073,"Me: ""Phew... Thank goodness it's gone""","Saya: ""Fiuhh... Syukurlah dia pergi"""
+CUT_074,"Me: ""Whatever happens, I'll get out of here alive!""","Saya: ""Apapun yang terjadi aku akan keluar dari sini hidup hidup!"""
+CUT_075,"Me: ""Alright, let's try.""","Saya: ""Baiklah, Mari kucoba."""
+END_002,Me: ...,Saya: ...
+END_003,"Me: ""Is it over?""","Saya: ""Apakah sudah berakhir?"""
+END_004,"Me: ""I don't know what's happening, but it's so quiet.""","Saya: ""Aku tidak tahu apa yang sedang terjadi tapi ini sunyi sekali."""
+END_005,Me: ...,Saya: ...
+END_006,"Me: ""I already told you, so now do I just wait?""","Saya: ""Aku sudah memberitahu, apakah sekarang aku tinggal menunggu?"""
+END_007,Me: !,Saya: !
+END_008,Police: Hello? Is that you?,Polisi: Halo? apakah itu kamu?
+END_009,Police: Thank goodness you're okay,Polisi: Syukurlah kamu baik baik saja
+END_010,"Me: ""Yes, I'm okay""","Saya: ""Iya, aku baik baik saja"""
+END_011,"Me: ""If only I could talk, I'd say exactly that""","Saya: ""Seandainya aku bisa bicara, aku akan bilang begitu"""
+END_012,Police: I got a report from a Ranger that there was an accident here,Polisi: Aku mendapat laporan dari Ranger ada kecelakaan disini
+END_013,"Police: As soon as I heard that, I rushed right over here",Polisi: Setelah aku mendengar itu aku langsung bergegas kesini
+END_014,Police: The Police and Medical team will be arriving soon,Polisi: Tim Polisi dan tim Medis akan segera datang
+END_015,"Police: So, please stay calm","Polisi: Jadi, kumohon untuk tetap tenang"
+END_016,Police: ...,Polisi: ...
+END_017,Me: Hufft...,Saya: Hufft...
+END_018,"Police: Alright, let's see what really happened here","Polisi: Baiklah, mari kita lihat apa yang sebenarnya terjadi disini"
+END_019,Police: I'm going to go investigate this place,Polisi: Aku akan pergi untuk menginvestigasi tempat ini
+END_020,"Me: ""I guess this is the end of this nightmare?""","Saya: ""Kurasa, ini akhir mimpi buruknya?"""
+END_021,"Me: ""I'm so sleepy, I think I'll sleep for a little while""","Saya: ""Aku sangat mengantuk, kurasa aku akan tidur sebentar saja"""
+END_023,"""You got a comfortable life after that incident""","""Anda mendapatkan hidup yang nyaman setelah insiden itu"""
+END_024,"""However, since your car was also damaged, you have to pay for it by working many times over.""","""Namun, karena mobilnya juga rusak anda harus membayarnya dengan bekerja berkali kali lipat."""
+END_025,"""Although it is hard, at least you can feel the fresh morning air""","""Meskipun sulit, setidaknya anda bisa merasakan udara segar di pagi hari"""
+END_026,To be continued.... (Look forward to the next game too),Bersambung.... (Nantikan game berikutnya juga)
+TUT_000_JUDUL,Welcome,Selamat Datang
+TUT_000_TEKS,You are someone whose bad luck led to falling into a cliff. Asking for help is essential here.,Kamu adalah orang yang bernasib buruk hingga terjatuh ke jurang. Meminta bantuan adalah hal yang wajib disini.
+TUT_001_JUDUL,Skip Cutscene,Lewati Cutscene
+TUT_001_TEKS,You can hold the mouse or press and hold the screen.,Anda dapat menahan mouse atau sentuh lama layar anda.
+TUT_002_JUDUL,How to Play?,Cara Bermain?
+TUT_002_TEKS,You must complete your task: input Morse code to the Forest Police while avoiding anomalies and tuning the frequency.,"Anda harus menyelesaikan tugas anda; yaitu dengan melakukan menginput kode Morse kepada Polisi Hutan, sambil menghindari anomali dan menyelaraskan frekuensi."
+TUT_003_JUDUL,Walkie Talkie,Walkie Talkie
+TUT_003_TEKS,Use the ↑ or ↓ button to search for the frequency. The frequency number is in the top-left corner.,"Gunakan Tombol ↑ atau ↓ untuk mencari frekuensi, angka frekuensi terletak di pojok kiri atas."
+TUT_004_JUDUL,Guide Paper,Kertas Panduan
+TUT_004_TEKS,"You can see the target frequency on the guide paper. If you don't know Morse code by heart, don't worry, the numbers and alphabet are already provided. You can also tap the paper to hide it if it blocks your view.
+
+Use the ← or → button to turn to the next page.","Anda dapat melihat target frekuensi pada kertas panduan. Jika anda tidak hafal dengan kode morse jangan khawatir, angka dan alphabet sudah disiapkan. Anda juga bisa klik kertasnya untuk menyembunyikan kertas jika itu menghalangi pandangan anda.
+
+Gunakan tombol ← atau → untuk balik halaman selanjutnya."
+TUT_005_JUDUL,Morse Code,Kode Morse
+TUT_005_TEKS,"After you hold the frequency for a while, the walkie talkie will enter Morse time. Press the Morse button or Shift to produce a dot (.), and hold it longer to produce a dash (—). Morse time may run out, so use the time calmly and don't rush.","Setelah anda menahan frekuensi setelah beberapa saat, walkie talkie akan memasuki waktu morse. Tekan tombol Morse atau shift untuk menghasilkan titik (.) dan jika anda menahan tombol itu lebih lama maka akan menghasilkan strip (—), durasi waktu Morse bisa habis jadi gunakan waktu dengan tenang dan tidak terburu buru."
+TUT_006_JUDUL,Progress,Progress
+TUT_006_TEKS,"One more thing: you must fill in the message's numbers and letters to make progress. When a character turns into a dot, it means you've entered it successfully.","Satu hal lagi, anda harus mengisi angka dan huruf pesan untuk berprogres. Jika karakter berubah menjadi titik, tandanya anda sudah berhasil menginput nya."
+TUT_007_JUDUL,Sound Anomaly,Anomali Suara
+TUT_007_TEKS,"Your sanity is the only thing that matters here, so don't let those voices be heard. Press the Interact or E button to put down your walkie talkie. This is the only way to block the sounds you hear.","Kewarasan anda satu satunya yang penting disini, jangan biarkan suara suara itu terdengar. Tekan tombol Interact atau E untuk menaruh walkie talkie anda, ini cara satu satunya untuk menangkal suara yang terdengar."
+TUT_008_JUDUL,Visual Anomaly,Anomali Visual
+TUT_008_TEKS,"If you see a terrifying entity or hear the heartbeat indicator, immediately close your eyes by holding the Eye or Space button, and release it to open your eyes again.","Jika anda melihat entitas yang menyeramkan atau mendengar indikator detak jantung, segera tutup mata anda dengan menahan tombol Eye atau Spasi dan melepas tombol untuk membuka mata anda kembali."
+TUT_009_JUDUL,Reinforcements Are Coming!,Bala bantuan akan datang!
+TUT_009_TEKS,"Once all the Morse code has been sent, you must survive the survival phase. In this phase all anomalies become aggressive, and your walkie talkie must stay with you to communicate with the Ranger. If you store it, you won't be able to save yourself.","Saat kode Morse sudah terkirim semua, anda harus bertahan di fase bertahan hidup. Di fase ini semua anomali menjadi agresif dan walkie talkie anda harus tetap di bawa untuk berkomunikasi dengan ranger, jika anda menyimpannya anda tidak bisa menyelamatkan diri anda sendiri."
+TUT_010_JUDUL,Happy Playing,Selamat bermain
+KERTAS_FREQ_TARGET,FREQ TARGET,FREKUENSI TARGET
+KERTAS_MHZ,MHz,MHz
+KERTAS_NUMBERS,NUMBERS:,ANGKA:
+KERTAS_ALPHABET_AM,ALPHABET (A-M):,ALFABET (A-M):
+KERTAS_ALPHABET_NZ,ALPHABET (N-Z):,ALFABET (N-Z):
+PENGATURAN_JUDUL,SETTINGS,PENGATURAN
+PENGATURAN_TAB_AUDIO,AUDIO,AUDIO
+PENGATURAN_TAB_GRAFIS,GRAPHICS,GRAFIS
+PENGATURAN_TAB_GAMEPLAY,GAMEPLAY,GAMEPLAY
+PENGATURAN_TAB_KONTROL,CONTROLS,KONTROL
+PENGATURAN_SEKSI_VOLUME,VOLUME,VOLUME
+PENGATURAN_MASTER,Master,Master
+PENGATURAN_MUSIK,Music,Musik
+PENGATURAN_EFEK_SUARA,Sound Effects,Efek Suara
+PENGATURAN_SEKSI_PRESET,PRESET,PRESET
+PENGATURAN_KUALITAS_GRAFIS,Graphics Quality,Kualitas Grafis
+PENGATURAN_SEKSI_TAMPILAN,DISPLAY,TAMPILAN
+PENGATURAN_RESOLUSI,Render Resolution,Resolusi Render
+PENGATURAN_CATATAN_RESOLUSI,Lower resolution makes the image pixelated but saves battery.,Resolusi lebih kecil membuat gambar lebih pixel dan lebih hemat baterai.
+PENGATURAN_SEKSI_BAYANGAN,SHADOWS & EFFECTS,BAYANGAN & EFEK
+PENGATURAN_BAYANGAN,Shadows,Bayangan
+PENGATURAN_KUALITAS_BAYANGAN,Shadow Quality,Kualitas Bayangan
+PENGATURAN_GLOW,Glow / Light,Glow / Cahaya
+PENGATURAN_SSAO,Ambient Occlusion (SSAO),Oklusi Ambien (SSAO)
+PENGATURAN_SEKSI_PERFORMA,PERFORMANCE,PERFORMA
+PENGATURAN_BATAS_FPS,FPS Limit,Batas FPS
+PENGATURAN_SEKSI_RADIO,RADIO,RADIO
+PENGATURAN_KECEPATAN_TUNING,Tuning Speed,Kecepatan Tuning
+PENGATURAN_SEKSI_KAMERA,CAMERA & EFFECTS,KAMERA & EFEK
+PENGATURAN_GETARAN_KAMERA,Camera Shake,Getaran Kamera
+PENGATURAN_GLITCH_JUDUL,Title Glitch Effect,Efek Glitch Judul
+PENGATURAN_SEKSI_SENTUHAN,TOUCH,SENTUHAN
+PENGATURAN_UKURAN_TOMBOL,Touch Button Size,Ukuran Tombol Sentuh
+PENGATURAN_HAPTIC,Screen Vibration (Haptic),Getar Layar (Haptic)
+PENGATURAN_SEKSI_BAHASA,LANGUAGE,BAHASA
+PENGATURAN_BAHASA,Language,Bahasa
+UI_ATUR_ULANG,RESET,ATUR ULANG
+UI_KEMBALI,BACK,KEMBALI
+BAYANGAN_RENDAH,Low (1024),Rendah (1024)
+BAYANGAN_SEDANG,Medium (2048),Sedang (2048)
+BAYANGAN_TINGGI,High (4096),Tinggi (4096)
+PRESET_RENDAH,Low,Rendah
+PRESET_SEDANG,Medium,Sedang
+PRESET_TINGGI,High,Tinggi
+PRESET_KUSTOM,Custom,Kustom
+FPS_TANPA_BATAS,Unlimited,Tanpa batas
+MENU_MULAI,START,MULAI
+MENU_PENGATURAN,SETTINGS,PENGATURAN
+MENU_KREDIT,CREDITS,KREDIT
+MENU_KELUAR,QUIT,KELUAR
+PAUSE_JUDUL,PAUSE,JEDA
+PAUSE_LANJUTKAN,Resume,Lanjutkan
+PAUSE_PENGATURAN,Settings,Pengaturan
+PAUSE_MENU_UTAMA,Main Menu,Menu Utama
+TUT_BTN_LEWATI,SKIP,LEWATI
+TUT_BTN_SEBELUMNYA,< BACK,< KEMBALI
+TUT_BTN_BERIKUTNYA,NEXT >,LANJUT >
+TUT_BTN_SELESAI,DONE,SELESAI
+KESULITAN_JUDUL,SELECT DIFFICULTY,PILIH KESULITAN
+KESULITAN_PILIH,SELECT,PILIH
+KESULITAN_TERPILIH,SELECTED,TERPILIH
+KESULITAN_MAINKAN,PLAY,MAINKAN
+KESULITAN_NAMA_0,EASY,MUDAH
+KESULITAN_NAMA_1,NORMAL,NORMAL
+KESULITAN_NAMA_2,HARDCORE,HARDCORE
+KESULITAN_NAMA_3,NIGHTMARE,NIGHTMARE
+KESULITAN_DESK_0,"Easy mode, suitable for young children.","Mode mudah, cocok untuk anak kecil."
+KESULITAN_DESK_1,"All anomalies appear, slightly faster.","Semua anomali muncul, sedikit lebih cepat."
+KESULITAN_DESK_2,"Reaction time is reduced and anomaly speed increases.","Durasi reaksi berkurang dan kecepatan anomali meningkat."
+KESULITAN_DESK_3,"You are toyed with by the entity. Stay calm and don't rush.","Anda dipermainkan oleh entitas. Tetap tenang dan jangan terburu-buru."
+KEMATIAN_TOMBOL_COBA,TRY AGAIN,COBA LAGI
+KEMATIAN_TOMBOL_MENU,MAIN MENU,MENU UTAMA
+KEMATIAN_RANGER,YOU DID NOT ANSWER THE RANGER.,KAMU TIDAK MENJAWAB RANGER.
+TRANSISI_MEMUAT,LOADING,MEMUAT
+INTRO_HEADSET,"We recommend using a Headset/Earphone.","Direkomendasikan untuk menggunakan Headset/Earphone."

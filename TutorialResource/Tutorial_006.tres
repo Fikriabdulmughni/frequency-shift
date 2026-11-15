@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HalamanTutorial" format=3 uid="uid://c7346vgw6v5f4"]
+
+[ext_resource type="Texture2D" uid="uid://cqi0veeej3qcn" path="res://tutorial/Morse_ok.png" id="1_kyi2v"]
+[ext_resource type="Script" uid="uid://gk8mdy5ydcys" path="res://halaman_tutorial.gd" id="2_b3syj"]
+
+[resource]
+script = ExtResource("2_b3syj")
+judul = "TUT_006_JUDUL"
+teks = "TUT_006_TEKS"
+gambar = ExtResource("1_kyi2v")
+metadata/_custom_type_script = "uid://gk8mdy5ydcys"

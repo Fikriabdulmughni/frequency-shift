@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://d048605q6tio"]
+
+[ext_resource type="AudioStream" uid="uid://dp4ecyijfre2k" path="res://Audio/FactorySound.wav" id="1_b5knh"]
+[ext_resource type="AudioStream" uid="uid://b3dbjvehjyfey" path="res://Audio/Footsteps Room.wav" id="2_4dg0g"]
+[ext_resource type="AudioStream" uid="uid://d3f1ddv61wgg5" path="res://Audio/NightAmbient.wav" id="2_4hrhc"]
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="2_83v0d"]
+
+[resource]
+script = ExtResource("2_83v0d")
+target_marker = NodePath("KameraMarker/Kamera4")
+pakai_fade = true
+atur_posisi_objek_manual = true
+koordinat_tujuan_objek = Vector3(-0.2, 0, -14.1)
+target_objek_node = NodePath("Mc")
+aksi_objek = 1
+atur_rotasi_objek = true
+rotasi_tujuan_objek = Vector3(0, 90, 0)
+aksi_filter_audio = 1
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer1")
+aksi_audio_1 = 2
+file_suara_1 = ExtResource("1_b5knh")
+volume_db_1 = -19.16
+audio_player_2 = NodePath("CanvasLayer/AudioPlayer2")
+aksi_audio_2 = 1
+file_suara_2 = ExtResource("2_4dg0g")
+fade_keluar_2 = 2.171
+audio_player_3 = NodePath("CanvasLayer/AudioPlayer3")
+aksi_audio_3 = 1
+file_suara_3 = ExtResource("2_4hrhc")
+volume_db_3 = -3.255
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

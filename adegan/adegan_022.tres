@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://doshisnvpypii"]
+
+[ext_resource type="AudioStream" uid="uid://ubnw8hcnscte" path="res://Audio/Footsteps Outroom.wav" id="1_gj0u4"]
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="2_qejpf"]
+
+[resource]
+script = ExtResource("2_qejpf")
+target_marker = NodePath("KameraMarker/Kamera2")
+pakai_fade = true
+durasi_fade_masuk = 0.5
+durasi_jeda_gelap = 3.0
+durasi_fade_keluar = 0.5
+auto_lanjut = true
+atur_posisi_objek_manual = true
+koordinat_tujuan_objek = Vector3(2, 0, -18.8)
+target_objek_node = NodePath("Character")
+aksi_objek = 1
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer1")
+audio_player_2 = NodePath("CanvasLayer/AudioPlayer2")
+aksi_audio_2 = 1
+file_suara_2 = ExtResource("1_gj0u4")
+volume_db_2 = -1.86
+fade_keluar_2 = 1.125
+akhir_potong_2 = 3.0
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

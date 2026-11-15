@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://bla1e4t6rdljj"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_uk7fd"]
+
+[resource]
+script = ExtResource("1_uk7fd")
+auto_lanjut = true
+atur_posisi_objek_manual = true
+target_objek_node = NodePath("Car9")
+aksi_objek = 4
+teks_narasi = "CUT_050"
+anim_player_1 = NodePath("cutscens3/AnimationPlayer")
+aksi_animasi_1 = 1
+anim_player_2 = NodePath("Car9/AnimationPlayer")
+aksi_animasi_2 = 2
+nama_animasi_2 = "ngeng"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

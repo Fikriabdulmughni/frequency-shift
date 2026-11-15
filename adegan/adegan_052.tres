@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://7m4wlvg0kpo3"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_aevlh"]
+
+[resource]
+script = ExtResource("1_aevlh")
+target_marker = NodePath("cutscens3/Cam1")
+durasi_gerak_kamera = 0.203
+auto_lanjut = true
+jeda_auto_lanjut = 1.0
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

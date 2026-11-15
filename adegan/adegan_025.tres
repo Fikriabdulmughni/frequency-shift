@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://dprjt5npjqbx"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_0pou5"]
+
+[resource]
+script = ExtResource("1_0pou5")
+target_marker = NodePath("KameraMarker/Kamera5")
+tipe_transisi = 1
+target_objek_node = NodePath("Mc")
+atur_rotasi_objek = true
+rotasi_tujuan_objek = Vector3(0, -3, 0)
+teks_narasi = "CUT_025"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

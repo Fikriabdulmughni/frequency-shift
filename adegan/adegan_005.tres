@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://crsmckutnysoe"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_pryox"]
+
+[resource]
+script = ExtResource("1_pryox")
+target_marker = NodePath("KameraMarker/Kamera2")
+atur_posisi_objek_manual = true
+koordinat_tujuan_objek = Vector3(1.7, -0.2, -14)
+target_objek_node = NodePath("Character")
+aksi_objek = 2
+atur_rotasi_objek = true
+rotasi_tujuan_objek = Vector3(0, -90, 0)
+teks_narasi = "CUT_005"
+anim_player_1 = NodePath("Character/Sketchfab_Scene/AnimationPlayer")
+aksi_animasi_1 = 1
+nama_animasi_1 = "uang"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://yw3a3nqw5b8c"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_t82h0"]
+
+[resource]
+script = ExtResource("1_t82h0")
+layar_hitam_penuh = true
+teks_narasi = "END_023"
+warna_teks = Color(0, 0, 1, 1)
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

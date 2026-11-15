@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://6dkmn7lhmr6l"]
+
+[ext_resource type="AudioStream" uid="uid://b5nqoggh0vgo2" path="res://Audio/New/Alret.ogg" id="1_cqk21"]
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_upyoi"]
+
+[resource]
+script = ExtResource("1_upyoi")
+target_marker = NodePath("cutscens3/Cam4")
+tipe_transisi = 2
+tingkat_zoom = 51.746
+durasi_zoom = 0.265
+atur_posisi_objek_manual = true
+target_objek_node = NodePath("cutscens3/VisualMonster")
+aksi_objek = 5
+teks_narasi = "CUT_066"
+warna_teks = Color(1, 0, 0, 1)
+aktifkan_getaran = true
+anim_player_1 = NodePath("cutscens3/VisualMonster/Enemy/ga024_lurcher2/AnimationPlayer")
+aksi_animasi_1 = 1
+nama_animasi_1 = "pose_3"
+anim_player_2 = NodePath("cutscens3/AnimationPlayer")
+aksi_animasi_2 = 1
+nama_animasi_2 = "kedip"
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer9")
+aksi_audio_1 = 1
+file_suara_1 = ExtResource("1_cqk21")
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

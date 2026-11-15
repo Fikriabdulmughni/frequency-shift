@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="TransitionSettings" format=3 uid="uid://crhu3u5m3ar2n"]
+
+[ext_resource type="Script" uid="uid://yogma187qkiy" path="res://transition_settings.gd" id="1_bxxgi"]
+
+[resource]
+script = ExtResource("1_bxxgi")
+metadata/_custom_type_script = "uid://yogma187qkiy"

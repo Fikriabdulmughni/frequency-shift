@@ -1,0 +1,722 @@
+[gd_scene format=4 uid="uid://bqyjvrothj102"]
+
+[ext_resource type="Script" uid="uid://cer7kn058brau" path="res://main_menu.gd" id="1_eiy7p"]
+[ext_resource type="Texture2D" uid="uid://4j36vhjd80ka" path="res://Img/button_square_wide.png" id="1_i26rj"]
+[ext_resource type="AudioStream" uid="uid://rklvd532sn0v" path="res://Audio/New/SelectButton.wav" id="2_31qfy"]
+[ext_resource type="AudioStream" uid="uid://dhc5h2gqq6p06" path="res://Audio/MainMenuSound.wav" id="3_3fnrj"]
+[ext_resource type="Shader" uid="uid://nmqdpqo7d4gi" path="res://vignette.gdshader" id="3_61cf8"]
+[ext_resource type="AudioStream" uid="uid://nardbdw1ddlp" path="res://Audio/Jumpscare/CameraGlitch.wav" id="3_ckqpr"]
+[ext_resource type="Texture2D" uid="uid://naqbw8b1tbnw" path="res://Full_Moon_Night/Full_Moon_Night.png" id="3_iwfq2"]
+[ext_resource type="Texture2D" uid="uid://ca53e1ep86m0g" path="res://Teksture/Grass004.png" id="4_7r1g0"]
+[ext_resource type="Script" uid="uid://cuhw211txvv0t" path="res://vignette_dinamis.gd" id="4_rnncn"]
+[ext_resource type="ArrayMesh" uid="uid://bk8y0t1v3ga2w" path="res://Cutscene/Asset/Car/Car 08/Car8.obj" id="5_cqjrg"]
+[ext_resource type="Texture2D" uid="uid://8h0hcfdccok2" path="res://Object/psx-style_horror_walkie-talkie_0.png" id="6_e2xy7"]
+[ext_resource type="FontFile" uid="uid://fomo86abavey" path="res://Font/jackwrite/JackwriteBold.woff2" id="6_iht1c"]
+[ext_resource type="Material" uid="uid://del1u1xywqxs6" path="res://Teksture/mat_off.tres" id="7_fimr5"]
+[ext_resource type="Script" uid="uid://c8gp8iexnlwh8" path="res://walkie_talkie.gd" id="8_qie43"]
+[ext_resource type="PackedScene" uid="uid://cvcu46qrmtiph" path="res://ui/tombol_menu.tscn" id="8_tvmpt"]
+[ext_resource type="Material" uid="uid://dbwa87f5cnsk6" path="res://Teksture/mat_on.tres" id="8_u7cqb"]
+[ext_resource type="Texture2D" uid="uid://bflif6fmfennf" path="res://Img/Default/icon_cog.png" id="9_dl1jy"]
+[ext_resource type="Texture2D" uid="uid://b0kx34nlpnubh" path="res://Img/Default/icon_arrow_curved.png" id="10_y4010"]
+[ext_resource type="AudioStream" uid="uid://cku177rvu1ktj" path="res://Audio/Click.wav" id="11_61cf8"]
+[ext_resource type="Script" uid="uid://s38vn828el0k" path="res://judul_dinamis.gd" id="11_l1t4j"]
+[ext_resource type="PackedScene" uid="uid://dydyusl7dbmup" path="res://ui/panel_pengaturan.tscn" id="12_ckqpr"]
+[ext_resource type="Texture2D" uid="uid://bdrb4x1hsad1x" path="res://Img/Default/icon_star.png" id="12_tkoa0"]
+[ext_resource type="Script" uid="uid://bm2q08dq4dwgq" path="res://panel_kesulitan.gd" id="13_xxvoy"]
+[ext_resource type="Script" uid="uid://g5xtel7kcymx" path="res://panel_kredit.gd" id="15_d6scf"]
+[ext_resource type="Texture2D" uid="uid://dfdl0vok2rgre" path="res://Img/Default/icon_checkmark.png" id="15_e2bvh"]
+[ext_resource type="Script" uid="uid://diskoljx6bhnh" path="res://camera_3d.gd" id="15_rnncn"]
+[ext_resource type="Texture2D" uid="uid://bikt020vhiqfa" path="res://Img/Default/icon_skull.png" id="17_ckqpr"]
+[ext_resource type="Texture2D" uid="uid://dh1sysscmudf3" path="res://Img/Default/icon_arrow.png" id="18_d6scf"]
+[ext_resource type="FontFile" uid="uid://c14gkih1hf20m" path="res://Font/jackwrite/Jackwrite.woff2" id="18_t8cnk"]
+[ext_resource type="Texture2D" uid="uid://b81yxvvthc8bc" path="res://Img/Default/button_square_wide.png" id="19_e2bvh"]
+[ext_resource type="Texture2D" uid="uid://comvqqs2fxkoj" path="res://Img/Default/icon_fire.png" id="19_oq2v3"]
+[ext_resource type="FontFile" uid="uid://bvbkve6cuhcej" path="res://Font/jackwrite/JackwriteBold.ttf" id="20_tvmpt"]
+[ext_resource type="Script" uid="uid://dyai4h7kl54j8" path="res://panel_tutorial.gd" id="24_oq2v3"]
+[ext_resource type="Script" uid="uid://gk8mdy5ydcys" path="res://halaman_tutorial.gd" id="25_nw2l6"]
+[ext_resource type="Resource" uid="uid://ogal6nganhkl" path="res://TutorialResource/Tutorial_000.tres" id="26_1u3id"]
+[ext_resource type="Resource" uid="uid://f56xbnp2m2dq" path="res://TutorialResource/Tutorial_001.tres" id="27_7gnpu"]
+[ext_resource type="Resource" uid="uid://bajah1e6xwk23" path="res://TutorialResource/Tutorial_002.tres" id="28_pt2ml"]
+[ext_resource type="Resource" uid="uid://x30njkpuoi4f" path="res://TutorialResource/Tutorial_003.tres" id="29_bkxwx"]
+[ext_resource type="Resource" uid="uid://raf08xnpw2dm" path="res://TutorialResource/Tutorial_004.tres" id="30_smuib"]
+[ext_resource type="Resource" uid="uid://b78vxactogydt" path="res://TutorialResource/Tutorial_005.tres" id="31_nbqot"]
+[ext_resource type="Resource" uid="uid://c7346vgw6v5f4" path="res://TutorialResource/Tutorial_006.tres" id="32_ddfga"]
+[ext_resource type="Resource" uid="uid://dcioj3f64gj6a" path="res://TutorialResource/Tutorial_007.tres" id="33_yl1t3"]
+[ext_resource type="Resource" uid="uid://dufhlodglwey2" path="res://TutorialResource/Tutorial_008.tres" id="34_p7m25"]
+[ext_resource type="Resource" uid="uid://q74fd5yoxqvd" path="res://TutorialResource/Tutorial_009.tres" id="35_irq1g"]
+[ext_resource type="Resource" uid="uid://bt6wx1fvcop8j" path="res://TutorialResource/Tutorial_010.tres" id="36_4y8ct"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_g7b7a"]
+shader = ExtResource("3_61cf8")
+shader_parameter/warna_vignette = Color(0, 0, 0, 1)
+shader_parameter/kekuatan = 0.8150000387125
+shader_parameter/radius = 0.80800003838
+shader_parameter/kehalusan = 0.55
+shader_parameter/denyut_kecepatan = 1.5450000733875
+shader_parameter/denyut_amplitudo = 0.03
+shader_parameter/kedip = 0.0
+
+[sub_resource type="Shader" id="Shader_d6scf"]
+code = "// Francisco Cidade  |  https://fcidade.com  |  https://fcidade.itch.io
+shader_type canvas_item;
+// PSX screen: chunky console pixels, 15-bit color and a dither on the final image of the whole 3D view.
+// Put it on a full-screen ColorRect inside a CanvasLayer above the 3D view. CC0.
+// It works on what was drawn before it, so the dither also covers the lighting and the fog, which a material cannot do.
+
+uniform sampler2D screen_texture : hint_screen_texture, filter_nearest;
+
+// How much of the effect is used. 0 = the picture as it is.
+uniform float screen_amount : hint_range(0.0, 1.0, 0.01) = 1.0;
+// Size of one console pixel in screen pixels. Use the same value as pixel_size in psx.gdshader (the viewer keeps the two together).
+uniform float screen_pixel_size : hint_range(1.0, 16.0, 0.5) = 3.0;
+// Bits per color channel. 5 = the PS1 15-bit color. 8 = off.
+uniform int screen_color_bits : hint_range(1, 8, 1) = 5;
+// Strength of the 4x4 ordered dither (0 = none).
+uniform float screen_dither : hint_range(0.0, 1.0, 0.01) = 1.0;
+// Slight brightness noise that changes every frame, like a worn picture.
+uniform float grain : hint_range(0.0, 0.2, 0.005) = 0.0;
+// Darkens the corners of the screen.
+uniform float vignette : hint_range(0.0, 1.0, 0.01) = 0.0;
+
+const int BAYER4[16] = int[16](0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5);
+
+float hash12(vec2 p) {
+	vec3 p3 = fract(vec3(p.xyx) * 0.1031);
+	p3 += dot(p3, p3.yzx + 33.33);
+	return fract((p3.x + p3.y) * p3.z);
+}
+
+void fragment() {
+	vec2 size = 1.0 / SCREEN_PIXEL_SIZE;
+	vec2 cell = floor(FRAGCOORD.xy / screen_pixel_size);
+	// the middle of the big pixel: every screen pixel inside it reads the same color
+	vec2 uv = (cell + 0.5) * screen_pixel_size / size;
+	vec3 c = texture(screen_texture, uv).rgb;
+	vec3 original = texture(screen_texture, SCREEN_UV).rgb;
+
+	ivec2 ic = ivec2(cell);
+	float t = (float(BAYER4[(ic.y & 3) * 4 + (ic.x & 3)]) + 0.5) / 16.0 - 0.5;
+	float levels = exp2(float(screen_color_bits)) - 1.0;
+	c = clamp(floor(c * levels + t * screen_dither + 0.5) / levels, 0.0, 1.0);
+	c += (hash12(cell + floor(TIME * 24.0) * 17.0) - 0.5) * grain;
+	vec2 d = SCREEN_UV - 0.5;
+	c *= 1.0 - vignette * smoothstep(0.25, 0.8, length(d * vec2(1.0, 0.8)) * 1.4);
+	COLOR = vec4(mix(original, c, screen_amount), 1.0);
+}
+"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_u7cqb"]
+shader = SubResource("Shader_d6scf")
+shader_parameter/screen_amount = 1.0
+shader_parameter/screen_pixel_size = 4.0
+shader_parameter/screen_color_bits = 5
+shader_parameter/screen_dither = 1.0
+shader_parameter/grain = 0.0
+shader_parameter/vignette = 0.1999999955296
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_e08hw"]
+texture = ExtResource("1_i26rj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_g7b7a"]
+texture = ExtResource("1_i26rj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gyc6d"]
+texture = ExtResource("19_e2bvh")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oq2v3"]
+texture = ExtResource("19_e2bvh")
+modulate_color = Color(0.40392157, 0.40392157, 0.40392157, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nw2l6"]
+texture = ExtResource("19_e2bvh")
+modulate_color = Color(0.6437342, 0.30748522, 0.3055162, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ee4k3"]
+texture = ExtResource("19_e2bvh")
+modulate_color = Color(0.97859687, 0, 0, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xxvoy"]
+texture = ExtResource("1_i26rj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_e2bvh"]
+texture = ExtResource("1_i26rj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tvmpt"]
+texture = ExtResource("1_i26rj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ckqpr"]
+texture = ExtResource("1_i26rj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tkoa0"]
+texture = ExtResource("1_i26rj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d6scf"]
+texture = ExtResource("1_i26rj")
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_e2xy7"]
+panorama = ExtResource("3_iwfq2")
+
+[sub_resource type="Sky" id="Sky_3fnrj"]
+sky_material = SubResource("PanoramaSkyMaterial_e2xy7")
+
+[sub_resource type="Environment" id="Environment_fimr5"]
+background_mode = 2
+sky = SubResource("Sky_3fnrj")
+ambient_light_source = 2
+ambient_light_energy = 16.0
+tonemap_mode = 3
+tonemap_exposure = 0.35
+tonemap_white = 2.2
+glow_enabled = true
+glow_intensity = 3.9
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0.101960786, 0.1254902, 0.17254902, 1)
+fog_density = 1.0
+fog_sky_affect = 0.72
+fog_depth_begin = 2.0
+fog_depth_end = 10.0
+adjustment_enabled = true
+adjustment_contrast = 1.05
+adjustment_saturation = 0.35
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kd2ti"]
+albedo_texture = ExtResource("4_7r1g0")
+normal_enabled = true
+normal_scale = 0.6
+normal_texture = ExtResource("4_7r1g0")
+uv1_scale = Vector3(3.27, 3.27, 3.27)
+uv1_triplanar = true
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_u7cqb"]
+material = SubResource("StandardMaterial3D_kd2ti")
+size = Vector2(30, 30)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ycsqt"]
+resource_name = "material_0"
+cull_mode = 2
+shading_mode = 0
+albedo_texture = ExtResource("6_e2xy7")
+texture_filter = 0
+texture_repeat = false
+metadata/_gltf_primary_texture_coord = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_a583l"]
+_surfaces = [{
+"aabb": AABB(-0.03198111, -0.040625, -0.03125, 0.06396222, 0.58124995, 0.0625),
+"format": 34896613377,
+"index_count": 120,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAAADAAQAAAAEAAUABQABAAAAAwAGAAQABQAEAAcABAAGAAcABQAHAAgACAABAAUACAAHAAkABwAGAAkACAAJAAoACgABAAgACgAJAAsACQAGAAsACgALAAwADAABAAoADAALAA0ACwAGAA0ADAANAA4ADgABAAwADgANAA8ADQAGAA8AEAABAA4ADgAPABAADwAGABEAEAAPABEAEAARABIAEgABABAAEQAGABMAEgARABMAFAABABIAEgATABQAAgABABQAEwAGABUAFAATABUAFAAVAAIAFQAGAAMAAgAVAAMA"),
+"name": "material_0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 22,
+"vertex_data": PackedByteArray("jOcAABrPAAD/fwAA/38AAI2nAAD//wAAjOf//xrPAAD//////38AAP//AAD/fwAA/3////9/AACM5///5DAAAIznAADkMAAAjaf//wAAAACNpwAAAAAAAHFY//8AAAAAcVgAAAAAAAByGP//5DAAAHIYAADkMAAAAAD///9/AAAAAAAA/38AAHIY//8azwAAchgAABrPAABxWP////8AAHFYAAD//wAAjaf/////AAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_afec1"]
+resource_name = "Sketchfab_Scene_Object_0"
+_surfaces = [{
+"aabb": AABB(-0.03198111, -0.040625, -0.03125, 0.06396222, 0.58124995, 0.0625),
+"attribute_data": PackedByteArray("vzP8PyYy5T/hNPA/8TTgP88zXRjPM/E/8TRMGOE0PBgmMjEYvzNIGBMyBkAmMuc/vjMBQM0z8T8DMmMYAzL3P80zXRi+M0wYJjIzGBMyURhOMABABTLnP/IxBkACMvc/PzBcGD8w8D8CMmMY8jFRGAUyMhhOMEsYPi/vPwUy5T9OMPw/PTDwPy4vShguL94/PTBcGE4wSBgFMjEYPi86GEkv2j8FMuU/Pi/uPy0v3j85LzUYOS/JPy0vShg+LzkYBTIwGEkvJRhsMM0/BTLkP0kv2T86L8k/XDAkGFwwuD86LzUYSS8lGAUyMBhsMBkYGDLEPwUy4j9tMMk/XTC4PygyHhgoMrI/XTAkGG0wFBgFMi4YGDIPGN0zyj8mMuM/OTLEPykysj/sMyUY7DO5PykyHhg5Mg8YJjIuGN0zFRjtNNs/JjLkP90zzT/tM7k//TQ3GP00yz/tMyUY3TMYGCYyMBjtNCYY4TTvPyYy5T/tNNw//TTLP/I0TBjyNOA//TQ3GO00JxgmMjAY4TQ7GA=="),
+"format": 34896613399,
+"index_count": 120,
+"index_data": PackedByteArray("AAABAAIAAwAEAAUAAwAGAAQABwAIAAkACgALAAwADQAOAA8ADQAQAA4AEQASABMAFAAVABYAFwAYABkAFwAaABgAGwAcAB0AHgAfACAAIQAiACMAIQAkACIAJQAmACcAKAApACoAKwAsAC0AKwAuACwALwAwADEAMgAzADQANQA2ADcANQA4ADYAOQA6ADsAPAA9AD4APwBAAEEAPwBCAEAAQwBEAEUARgBHAEgASQBKAEsASQBMAEoATQBOAE8AUABRAFIAUwBUAFUAUwBWAFQAVwBYAFkAWgBbAFwAXQBeAF8AXQBgAF4AYQBiAGMA"),
+"material": SubResource("StandardMaterial3D_ycsqt"),
+"name": "material_0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 100,
+"vertex_data": PackedByteArray("jOcAABrPAdj/fwAA/38B2I2nAAD//wHYjacAAP//3gGM5///Gs/eAYznAAAaz94Bjaf/////3gGNp//////8J/9/////f/wnjOf//xrP/Cf//wAA/39S1v9/AAD/f1LWjOcAABrPUtaM5wAAGs+PAP//////f48A//8AAP9/jwCM5///Gs+PAIzn//8az60p/3////9/rSn//////3+tKYznAADkMFfV/38AAP9/V9X//wAA/39X1f//AAD/f3sAjOf//+QwewCM5wAA5DB7AP//////f3sA//////9/pyr/f////3+nKozn///kMKcqjacAAAAAudT/fwAA/3+51IznAADkMLnUjOcAAOQwpQCNp///AAClAI2nAAAAAKUAjOf//+QwpQCM5///5DBFK/9/////f0Urjaf//wAARStxWAAAAADt1f9/AAD/f+3VjacAAAAA7dWNpwAAAAD//3FY//8AAP//cVgAAAAA//+Np///AAD//42n//8AABIq/3////9/EipxWP//AAASKnIYAADkMALY/38AAP9/AthxWAAAAAAC2HFYAAAAAODlchj//+Qw4OVyGAAA5DDg5XFY//8AAODlcVj//wAA/Sf/f////3/9J3IY///kMP0nAAAAAP9/Udb/fwAA/39R1nIYAADkMFHWchgAAOQweswAAP///396zAAAAAD/f3rMchj//+QwesxyGP//5DCsKf9/////f6wpAAD///9/rClyGAAAGs9X1f9/AAD/f1fVAAAAAP9/V9UAAAAA/3+Fs3IY//8az4WzchgAABrPhbMAAP///3+FswAA////f6Yq/3////9/pipyGP//Gs+mKnFYAAD//7nU/38AAP9/udRyGAAAGs+51HIYAAAazzOacVj/////M5pxWAAA//8zmnIY//8azzOachj//xrPRSv/f////39FK3FY/////0UrjacAAP//7NX/fwAA/3/s1XFYAAD//+zVcVgAAP//gQKNp/////+BAo2nAAD//4ECcVj/////gQJxWP////8RKv9/////fxEqjaf/////ESo6LHTYOix02DosdNi3nzt/t587f7efO3+3nzt/iKc6rIinOqyIpzqsQSuD1kErg9ZBK4PW7LWJf+y1iX/stYl/7LWJf3ypQKt8qUCrfKlAq6wqWNWsKljVrCpY1bwAc0m8AHNJvABzSbwAc0mmqquqpqqrqqaqq6pMKpfUTCqX1Ewql9ReAk9eXgJPXl4CT15eAk9eZ6tLqmerS6pnq0uqBisL1gYrC9YGKwvWLXwt/C18LfwtfC38LXwt/POpBavzqQWr86kFqzssddg7LHXYOyx12P98//v/fP/7/3z/+/98//uKpzmsiqc5rIqnOaxBK4HWQSuB1kErgdbrfiD+634g/ut+IP7rfiD+e6lBq3upQat7qUGrrCpY1awqWNWsKljV9oK+/vaCvv72gr7+9oK+/qWqrKqlqqyqpaqsqksql9RLKpfUSyqX1LeLE/23ixP9t4sT/beLE/1mq0uqZqtLqmarS6oFKwvWBSsL1gUrC9b/f/9//3//f/9//3//f/9/8qkFq/KpBavyqQWr")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_a583l")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ylr8r"]
+_surfaces = [{
+"aabb": AABB(-0.115625, -0.384375, -0.359375, 0.23125, 1.353125, 0.71875),
+"format": 34896613377,
+"index_count": 156,
+"index_data": PackedByteArray("AAABAAIAAwAAAAIAAQAEAAIAAwACAAUABQACAAQABgADAAUABwADAAYABgAFAAgABwAJAAMACQAAAAMACgAHAAYACgAJAAcACgAGAAgACAAFAAsACAALAAoABQAEAAsACgALAAkACwAMAAkACQAMAAAACwAEAAwADAANAAAAAAANAAEADgAMAAQAAQAOAAQADAAPAA0ADgAPAAwAEAABAA0AEQAOAAEAEQABABAAEgAOABEAEgAPAA4AEwANAA8AEwAPABIAEAANABMAFAASABEAFQARABAAFAARABUAFgAQABMAFQAQABYAFwATABIAFwASABQAFgATABcAGAAUABUAGQAWABcAGgAXABQAGQAXABoAGgAUABgAGwAWABkAGgAbABkAGwAVABYAGgAYABsAGAAVABsA"),
+"name": "material_0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 28,
+"vertex_data": PackedByteArray("//9Y6AAAAAD//2Ac//8AAP//WOj//wAA//8r9LIQAAAAAFjo//8AAP//K/RM7wAA/////6Y3AAAAAP//pjcAAP////9YyAAAAAAr9LIQAAAAAP//WMgAAAAAK/RM7wAAAABY6AAAAAD//2AcAAAAAAAAYBz//wAAAABgHAAAAAD//40Q3fQAAAAAjRDd9AAAAACNECELAAD//40QIQsAAAAAugRkIQAAAAC6BJreAAD//7oEmt4AAP//ugRkIQAAAAAAADc9AAD//wAAx8IAAP//AAA3PQAAAAAAAMfCAAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_31qfy"]
+resource_name = "Sketchfab_Scene_Object_1"
+_surfaces = [{
+"aabb": AABB(-0.115625, -0.384375, -0.359375, 0.23125, 1.353125, 0.71875),
+"attribute_data": PackedByteArray("FeXseMCUncjAlOx4FeWdyHRx6NWNIspfdHHKX40i6NVu2KLOhaCmtxPYeLhQnrzNXLZmwgadQtNEnfXBHraz09NyXcGeaTpd03I6XZ5pXcHPo9hvIpOE5SKT2G9+okTlRJhIzRHlqsiR4UjNxZSqyLqbGuZhmRTJLpyOyPGYfeUDJs/cbHH31f1tz9yUIvfVQtAEwxfSDNOAz1nT0dJYw0Kf59GR4UrNk9rn0USYSs3LotXmLpyOyESjDsi6mxrm4Syp4/1t0twfZ6njAybS3LPGoMKAz1nT6cWj00LQBMMAqMLTk9rp0dXRwtNCn+nRyapC50ShDshEq/XHy6DV5nY1aOYfZ6zjil5o5uEsrOPstmbC6cWj0x62s9OzxqDCE1NLfIVA/YSFQEt8E1P9hNLfQnTFlOB4BJpCdBHl4Hji55KBHNwemBzckoHi5x6YRmzjWJQiu1+6J+NYbHG7XxPYeLi35RfObtiiztXkOrmV06JvBJo/dEGmom/S3z90UJ68zVGUCriFoKa3uJHMzEJgCVK6J+BYvzMJUkZs4Fg="),
+"format": 34896613399,
+"index_count": 156,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUAGAAZABoAGAAbABkAHAAdAB4AHAAfAB0AIAAhACIAIAAjACEAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALAAvAC0AMAAxADIAMAAzADEANAA1ADYANAA3ADUAOAA5ADoAOAA7ADkAPAA9AD4APAA/AD0AQABBAEIAQABDAEEARABFAEYARABHAEUASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0AYABhAGIAYABjAGEAZABlAGYAZABnAGUA"),
+"material": SubResource("StandardMaterial3D_ycsqt"),
+"name": "material_0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 104,
+"vertex_data": PackedByteArray("//9Y6AAA/7///2Ac////v///WOj///+///9gHAAA/78AAGAc////vwAAWOgAAP+/AABY6P///78AAGAcAAD/vwAA//9YyNLU/////6Y3ztT/////WMjW1AAA//+mN8nU//8AADc99dQAAAAAx8L11P//AADHwvXUAAAAADc99dT//2Ac//8AgAAAWOj//wCA//9Y6P//AIAAAGAc//8AgAAAWOgAAP////9gHAAA/////1joAAD//wAAYBwAAP////+NEN30/7///2AcAAD/v///jRAhC/+///9gHP///78AAI0Q3fRUwP//YBz//3nD//+NEN30asQAAGAc//9lvwAAjRAhC/+/AABgHP///78AAI0Q3fT/vwAAYBwAAP+///+NECELZvIAAGAcAADy8gAAjRAhCxzz//9gHAAAPvL//7oEmt7/v///jRAhC/+///+6BGQh/7///40Q3fT/vwAAugSa3pfE//+NEN30m8b//7oEmt58xwAAjRDd9LnDAAC6BGQh/78AAI0Q3fT/vwAAugSa3v+/AACNECEL/7///7oEZCE96QAAjRAhC+TpAAC6BGQhLur//40QIQv16P//AADHwv+///+6BGQh/7///wAANz3/v///ugSa3v+/AAAAAMfCqc3//7oEmt5szv//AADHwrfOAAC6BJreXs0AAAAANz3/vwAAugSa3v+/AAAAAMfC/78AALoEZCH/v///AAA3PXHcAAC6BGQh8dwAAAAANz0j3f//ugRkIUDc//8r9EzvN5oAAFjo//83mgAAK/RM7zea//9Y6P//N5r//yv0shD/v///WOj///+///8r9Ezv/7///1joAAD/vwAAK/SyEP////9Y6AAA/////yv0shD//wAAWOgAAP//AAAr9Ezv/78AAFjoAAD/vwAAK/SyEP+/AABY6P///7//////WMhkyQAAK/RM76zKAAD//1jIy8v//yv0TO9KyP////+mN/+///8r9Ezv/7//////WMj/v///K/SyEP+/AAD//6Y3uOH//yv0shBd4v////+mN+/iAAAr9LIQK+EAAP//WMj/vwAAK/SyEP+/AAD//6Y3/78AACv0TO//v/9/AAD/fwAA/38AAP9/AAD/f////3////9/////f///SKtaqk2rWKpDq12qUqtVquJUjlXiVI5V4lSOVeJUjlX/f////3////9/////f///6X/p/3N/cv//f///XX9d//9/AAD/fwAA/38AAP9/AAClaqFrDmxca3ZsSGs2arZr/3////9/////f////3///1VF50fpR9FFrEgzRY9Eh0j/fwAA/38AAP9/AAD/fwAAGWJDY2Vj4mLyY7lihmFuY/9/////f////3////9////NSc9LlkuMSltMAUoFSV1M/38AAP9/AAD/fwAA/38AAEBZVlr6WQhaQVrqWflYdFr/f////3////9/////f///SlCVURhRHlFmUfFQ+0/DUf///3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3//3/9//9//f//f/3//3/9/////f////3////9///8qoxaiI6J2okKhyaIUpMCh/38AAP9/AAD/fwAA/38AAASztbC7sYWxoLA4siW0/q//f////3////9/////f///")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ylr8r")
+
+[sub_resource type="BoxMesh" id="BoxMesh_qie43"]
+material = ExtResource("7_fimr5")
+size = Vector3(0.19988158, 0.077, 0.3248706)
+
+[node name="SceneMenu" type="Node3D" unique_id=895631811]
+script = ExtResource("1_eiy7p")
+durasi_fade = 1.0
+suara_klik_tombol = ExtResource("2_31qfy")
+jeda_sebelum_keluar = -0.015
+suara_transisi = ExtResource("3_ckqpr")
+backsound = ExtResource("3_3fnrj")
+volume_db_senyap = -80.0
+fade_masuk_durasi = 0.202
+fade_masuk_transisi = 6
+fade_masuk_easing = 2
+fade_keluar_transisi = 0
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=316262538]
+bus = &"Musik"
+
+[node name="AudioUI" type="AudioStreamPlayer" parent="." unique_id=1802926953]
+bus = &"SFX"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=280704636]
+
+[node name="Vignette" type="ColorRect" parent="CanvasLayer" unique_id=1117622]
+material = SubResource("ShaderMaterial_g7b7a")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("4_rnncn")
+
+[node name="PSXVisual" type="ColorRect" parent="CanvasLayer" unique_id=753539597]
+material = SubResource("ShaderMaterial_u7cqb")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="JudulFrekuensi" type="Label" parent="CanvasLayer" unique_id=1687913218]
+custom_minimum_size = Vector2(900, 100)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -441.0
+offset_top = 88.0
+offset_right = 459.0
+offset_bottom = 188.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 67
+script = ExtResource("11_l1t4j")
+warna_merah = Color(0, 0, 0, 1)
+warna_biru = Color(0.9584171, 1, 0, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=1632153639]
+custom_minimum_size = Vector2(0, -0.74)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -129.0
+offset_top = -151.0
+offset_right = 129.0
+offset_bottom = 272.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 45
+
+[node name="BtnMulai" parent="CanvasLayer/VBoxContainer" unique_id=1045970197 instance=ExtResource("8_tvmpt")]
+layout_mode = 2
+
+[node name="BtnPengaturan" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1606152086]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_e08hw")
+text = "PENGATURAN"
+icon = ExtResource("9_dl1jy")
+
+[node name="BtnKredit" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1590400459]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxTexture_e08hw")
+text = "KREDIT"
+icon = ExtResource("12_tkoa0")
+
+[node name="BtnKeluar" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=378047647]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 46
+theme_override_styles/normal = SubResource("StyleBoxTexture_e08hw")
+text = "Keluar"
+icon = ExtResource("10_y4010")
+
+[node name="PanelPengaturan" parent="CanvasLayer" unique_id=1815183219 instance=ExtResource("12_ckqpr")]
+jeda_tick = 1.062
+
+[node name="PanelKredit" type="Panel" parent="CanvasLayer" unique_id=1326155698]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1600.0
+offset_bottom = -720.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("15_d6scf")
+ukuran_bagian = 97
+ukuran_nama = 75
+ukuran_keterangan = 38
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/PanelKredit" unique_id=1753978590]
+custom_minimum_size = Vector2(400, 500)
+layout_mode = 1
+offset_right = 600.0
+offset_bottom = 500.0
+
+[node name="LabelJudul" type="Label" parent="CanvasLayer/PanelKredit/VBoxContainer" unique_id=581467492]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 66
+text = "KREDIT"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/PanelKredit/VBoxContainer" unique_id=1566311622]
+layout_mode = 2
+theme_override_fonts/normal_font = ExtResource("6_iht1c")
+theme_override_font_sizes/normal_font_size = 26
+fit_content = true
+
+[node name="BtnKembaliKredit" type="Button" parent="CanvasLayer/PanelKredit/VBoxContainer" unique_id=1244107480]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxTexture_g7b7a")
+text = "KEMBALI"
+
+[node name="PanelKesulitan" type="Control" parent="CanvasLayer" unique_id=1335231908]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("13_xxvoy")
+ilustrasi_kesulitan = Array[Texture2D]([ExtResource("15_e2bvh"), ExtResource("18_d6scf"), ExtResource("19_oq2v3"), ExtResource("17_ckqpr")])
+font_utama = ExtResource("6_iht1c")
+suara_klik = ExtResource("11_61cf8")
+
+[node name="IsiPanel" type="VBoxContainer" parent="CanvasLayer/PanelKesulitan" unique_id=350215228]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -406.0
+offset_top = -193.0
+offset_right = 406.0
+offset_bottom = 193.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 16
+
+[node name="BarKartu" type="HBoxContainer" parent="CanvasLayer/PanelKesulitan/IsiPanel" unique_id=1367010174]
+layout_mode = 2
+
+[node name="Kartu0" type="VBoxContainer" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu" unique_id=94463002]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+
+[node name="Ilustrasi" type="TextureRect" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu0" unique_id=1194361656]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+size_flags_vertical = 3
+stretch_mode = 5
+
+[node name="LabelNama" type="Label" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu0" unique_id=500814062]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("18_t8cnk")
+theme_override_font_sizes/font_size = 28
+
+[node name="LabelDeskripsi" type="Label" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu0" unique_id=871569430]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 40
+autowrap_mode = 2
+
+[node name="BtnPilih" type="Button" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu0" unique_id=1269186581]
+custom_minimum_size = Vector2(160, 50)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_gyc6d")
+text = "Pilih"
+
+[node name="Kartu1" type="VBoxContainer" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu" unique_id=1704186375]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+
+[node name="Ilustrasi" type="TextureRect" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu1" unique_id=1213141206]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+size_flags_vertical = 3
+stretch_mode = 5
+
+[node name="LabelNama" type="Label" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu1" unique_id=1109524425]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.36862746, 0.36862746, 0.36862746, 1)
+theme_override_colors/font_outline_color = Color(0.6830357, 0.68303573, 0.68303573, 1)
+theme_override_fonts/font = ExtResource("18_t8cnk")
+theme_override_font_sizes/font_size = 28
+
+[node name="LabelDeskripsi" type="Label" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu1" unique_id=1584290907]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.36716992, 0.3671698, 0.36716995, 1)
+theme_override_colors/font_outline_color = Color(0.68235296, 0.68235296, 0.68235296, 1)
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 40
+autowrap_mode = 2
+
+[node name="BtnPilih" type="Button" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu1" unique_id=1378042100]
+custom_minimum_size = Vector2(160, 50)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4033614, 0.4033604, 0.40336078, 1)
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_oq2v3")
+text = "Pilih"
+
+[node name="Kartu2" type="VBoxContainer" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu" unique_id=1392808812]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+
+[node name="Ilustrasi" type="TextureRect" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu2" unique_id=2031872290]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+size_flags_vertical = 3
+stretch_mode = 5
+
+[node name="LabelNama" type="Label" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu2" unique_id=1932061776]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6431373, 0.30588236, 0.30588236, 1)
+theme_override_colors/font_outline_color = Color(0.48724425, 0.4872443, 0.48724425, 1)
+theme_override_fonts/font = ExtResource("18_t8cnk")
+theme_override_font_sizes/font_size = 28
+
+[node name="LabelDeskripsi" type="Label" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu2" unique_id=1369056839]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6431373, 0.30588236, 0.30588236, 1)
+theme_override_colors/font_outline_color = Color(0.9606789, 0.9606789, 0.9606789, 1)
+theme_override_constants/shadow_outline_size = 1
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 40
+autowrap_mode = 2
+
+[node name="BtnPilih" type="Button" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu2" unique_id=1692217674]
+custom_minimum_size = Vector2(160, 50)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6431373, 0.30588236, 0.30588236, 1)
+theme_override_colors/font_outline_color = Color(0.6013469, 0.6013469, 0.60134697, 1)
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_nw2l6")
+text = "Pilih"
+
+[node name="Kartu3" type="VBoxContainer" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu" unique_id=1714416707]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+
+[node name="Ilustrasi" type="TextureRect" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu3" unique_id=462717501]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+size_flags_vertical = 3
+stretch_mode = 5
+
+[node name="LabelNama" type="Label" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu3" unique_id=1823122158]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.98039216, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.98039216, 0, 0, 1)
+theme_override_constants/line_spacing = 3
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = ExtResource("18_t8cnk")
+theme_override_font_sizes/font_size = 28
+
+[node name="LabelDeskripsi" type="Label" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu3" unique_id=1641256557]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.98039216, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.98039216, 0, 0, 1)
+theme_override_constants/line_spacing = 3
+theme_override_constants/paragraph_spacing = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 40
+autowrap_mode = 2
+
+[node name="BtnPilih" type="Button" parent="CanvasLayer/PanelKesulitan/IsiPanel/BarKartu/Kartu3" unique_id=1729590701]
+custom_minimum_size = Vector2(160, 50)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.98039216, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.97975916, 0.97975916, 0.97975904, 1)
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_ee4k3")
+text = "Pilih"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/PanelKesulitan/IsiPanel" unique_id=1671349130]
+layout_mode = 2
+
+[node name="BtnEasy" type="Button" parent="CanvasLayer/PanelKesulitan/IsiPanel/HBoxContainer" unique_id=462009692]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_xxvoy")
+
+[node name="BtnNormal" type="Button" parent="CanvasLayer/PanelKesulitan/IsiPanel/HBoxContainer" unique_id=565050010]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_e2bvh")
+
+[node name="BtnHardcore" type="Button" parent="CanvasLayer/PanelKesulitan/IsiPanel/HBoxContainer" unique_id=107502901]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_tvmpt")
+
+[node name="BtnNightmare" type="Button" parent="CanvasLayer/PanelKesulitan/IsiPanel/HBoxContainer" unique_id=405251065]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_ckqpr")
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="CanvasLayer/PanelKesulitan" unique_id=647942882]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -697.0
+offset_top = -132.0
+offset_right = 703.0
+offset_bottom = -82.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 1000
+alignment = 2
+
+[node name="BtnKembaliKesulitan" type="Button" parent="CanvasLayer/PanelKesulitan/HBoxContainer2" unique_id=415060199]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_iht1c")
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxTexture_tkoa0")
+text = "Kembali"
+
+[node name="BtnMasuk" type="Button" parent="CanvasLayer/PanelKesulitan/HBoxContainer2" unique_id=1400002084]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("20_tvmpt")
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxTexture_d6scf")
+text = "MAINKAN"
+
+[node name="FadeOverlay" type="ColorRect" parent="CanvasLayer" unique_id=317740924]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="PanelTutorial" type="Control" parent="CanvasLayer" unique_id=1963387063]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("24_oq2v3")
+halaman = Array[ExtResource("25_nw2l6")]([ExtResource("26_1u3id"), ExtResource("27_7gnpu"), ExtResource("28_pt2ml"), ExtResource("29_bkxwx"), ExtResource("30_smuib"), ExtResource("31_nbqot"), ExtResource("32_ddfga"), ExtResource("33_yl1t3"), ExtResource("34_p7m25"), ExtResource("35_irq1g"), ExtResource("36_4y8ct")])
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=255319955]
+environment = SubResource("Environment_fimr5")
+
+[node name="Tanah" type="MeshInstance3D" parent="." unique_id=691766523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.22275615, 0)
+mesh = SubResource("PlaneMesh_u7cqb")
+
+[node name="Mobil" type="MeshInstance3D" parent="." unique_id=914661221]
+transform = Transform3D(0.32, 0, 0, 0, 0.32, 0, 0, 0, 0.32, -0.17032957, -0.39328736, -0.15371147)
+mesh = ExtResource("5_cqjrg")
+
+[node name="Walkie Talkie" type="Node3D" parent="." unique_id=1430842476 node_paths=PackedStringArray("mesh_layar")]
+transform = Transform3D(-0.1279014, 0, 0.10104573, 0, 0.16300003, 0, -0.10104571, 0, -0.12790138, 0.34249958, 0.5401649, 0.12395871)
+script = ExtResource("8_qie43")
+mat_off = ExtResource("7_fimr5")
+mat_on = ExtResource("8_u7cqb")
+mesh_layar = NodePath("Lampu Mati")
+suara_glitch = ExtResource("11_61cf8")
+volume_db_radio = 6.5
+suara_klik = ExtResource("11_61cf8")
+volume_db_klik = -22.1
+
+[node name="Sketchfab_Scene" type="Node3D" parent="Walkie Talkie" unique_id=516700801]
+transform = Transform3D(-0.0012612821, 0.8406551, -0.54156834, -0.99570656, 0.049067717, 0.07848484, 0.09255226, 0.53934234, 0.83698434, 1.2054424, 0.8542323, -1.7215507)
+
+[node name="Sketchfab_model" type="Node3D" parent="Walkie Talkie/Sketchfab_Scene" unique_id=243523768]
+transform = Transform3D(1, 0, 0, 0, 2.220446e-16, 1, 0, -1, 2.220446e-16, 0, 0, 0)
+
+[node name="root" type="Node3D" parent="Walkie Talkie/Sketchfab_Scene/Sketchfab_model" unique_id=824606243]
+
+[node name="GLTF_SceneRootNode" type="Node3D" parent="Walkie Talkie/Sketchfab_Scene/Sketchfab_model/root" unique_id=1844563785]
+transform = Transform3D(1, 0, 0, 0, 2.220446e-16, -1, 0, 1, 2.220446e-16, 0, 0, 0)
+
+[node name="_3" type="Node3D" parent="Walkie Talkie/Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode" unique_id=1707549588]
+
+[node name="cylinder_0" type="Node3D" parent="Walkie Talkie/Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/_3" unique_id=1259763228]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.534375, -0.353125)
+
+[node name="Object_5" type="MeshInstance3D" parent="Walkie Talkie/Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/_3/cylinder_0" unique_id=882492886]
+mesh = SubResource("ArrayMesh_afec1")
+
+[node name="bone_2" type="Node3D" parent="Walkie Talkie/Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/_3" unique_id=1605973014]
+
+[node name="cuboid_1" type="Node3D" parent="Walkie Talkie/Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/_3/bone_2" unique_id=739878415]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4375, -0.13125)
+
+[node name="Object_8" type="MeshInstance3D" parent="Walkie Talkie/Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/_3/bone_2/cuboid_1" unique_id=193371767]
+mesh = SubResource("ArrayMesh_31qfy")
+
+[node name="Lampu Mati" type="MeshInstance3D" parent="Walkie Talkie" unique_id=1255609817]
+transform = Transform3D(0.61375046, -0.0026899467, -0.5586605, 0.041182052, 0.99541247, 0.0778277, 0.41135734, -0.09563991, 0.82573724, 1.5285373, 0.9373764, -1.6655414)
+mesh = SubResource("BoxMesh_qie43")
+surface_material_override/0 = ExtResource("8_u7cqb")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=75843830]
+transform = Transform3D(0.7832228, 0.12842008, -0.608334, 0.6217411, -0.161774, 0.7663336, 0, -0.97843623, -0.20654914, 0, 0.7206744, 0)
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=245521442]
+transform = Transform3D(1, 0, 0, 0, 0.6774493, 0.7355695, 0, -0.7355695, 0.6774493, -0.18916377, 1.3512251, 0.87952757)
+fov = 16.843117
+script = ExtResource("15_rnncn")
+amplitudo_rotasi = 0.025
+kecepatan = 0.08

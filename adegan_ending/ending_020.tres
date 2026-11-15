@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://b2op7ixkrxu2s"]
+
+[ext_resource type="AudioStream" uid="uid://ubnw8hcnscte" path="res://Audio/Footsteps Outroom.wav" id="1_7uxqi"]
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_usp3f"]
+
+[resource]
+script = ExtResource("1_usp3f")
+teks_narasi = "END_020"
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer6")
+aksi_audio_1 = 1
+file_suara_1 = ExtResource("1_7uxqi")
+fade_keluar_1 = 1.284
+akhir_potong_1 = 2.75
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://c8101axdoyltn"]
+
+[ext_resource type="AudioStream" uid="uid://dp4ecyijfre2k" path="res://Audio/FactorySound.wav" id="1_00ice"]
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_mackj"]
+
+[resource]
+script = ExtResource("1_mackj")
+target_marker = NodePath("KameraMarker/Kamera1")
+tipe_transisi = 1
+pakai_fade = true
+durasi_fade_masuk = 0.0
+durasi_jeda_gelap = 1.0
+atur_posisi_objek_manual = true
+target_objek_node = NodePath("DirectionalLight3D")
+aksi_objek = 4
+teks_narasi = "CUT_000"
+anim_player_1 = NodePath("Character/Sketchfab_Scene/AnimationPlayer")
+aksi_animasi_1 = 1
+nama_animasi_1 = "stay"
+anim_player_2 = NodePath("AnimationPlayer")
+aksi_animasi_2 = 1
+nama_animasi_2 = "Convenyor"
+aksi_filter_audio = 3
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer1")
+aksi_audio_1 = 1
+file_suara_1 = ExtResource("1_00ice")
+volume_db_1 = -2.243
+fade_masuk_1 = 1.095
+mulai_potong_1 = 7.0
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

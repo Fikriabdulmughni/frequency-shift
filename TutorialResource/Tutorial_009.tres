@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HalamanTutorial" format=3 uid="uid://q74fd5yoxqvd"]
+
+[ext_resource type="Texture2D" uid="uid://by5xfbgwnq8qc" path="res://tutorial/ranger_ok.png" id="1_lnbry"]
+[ext_resource type="Script" uid="uid://gk8mdy5ydcys" path="res://halaman_tutorial.gd" id="2_88ja1"]
+
+[resource]
+script = ExtResource("2_88ja1")
+judul = "TUT_009_JUDUL"
+teks = "TUT_009_TEKS"
+gambar = ExtResource("1_lnbry")
+metadata/_custom_type_script = "uid://gk8mdy5ydcys"

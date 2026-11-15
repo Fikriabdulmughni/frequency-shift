@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://bh0326wtonx6f"]
+
+[ext_resource type="AudioStream" uid="uid://d13kd5khkxbmq" path="res://Audio/crash.wav" id="1_lo08t"]
+[ext_resource type="AudioStream" uid="uid://byn8p0wvatfbq" path="res://Cutscene/Asset/Car/Sound effects/Car2_Engine_Loop.ogg" id="1_rl4nq"]
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="3_xd7iv"]
+
+[resource]
+script = ExtResource("3_xd7iv")
+target_marker = NodePath("cutscens3/Cam1")
+pakai_fade = true
+layar_hitam_penuh = true
+jeda_auto_lanjut = 0.0
+koordinat_tujuan_objek = Vector3(-0.2, 0, -14.1)
+target_objek_node = NodePath("Mc")
+aksi_objek = 4
+rotasi_tujuan_objek = Vector3(0, 90, 0)
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer5")
+aksi_audio_1 = 4
+file_suara_1 = ExtResource("1_rl4nq")
+audio_player_3 = NodePath("CanvasLayer/AudioPlayer7")
+aksi_audio_3 = 1
+file_suara_3 = ExtResource("1_lo08t")
+volume_db_3 = -31.152
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

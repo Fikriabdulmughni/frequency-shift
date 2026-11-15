@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://c71jx0ftqqyav"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_yh5wb"]
+
+[resource]
+script = ExtResource("1_yh5wb")
+layar_hitam_penuh = true
+auto_lanjut = true
+jeda_auto_lanjut = 1.0
+teks_narasi = "CUT_068"
+warna_teks = Color(1, 0, 0, 1)
+tunggu_teks_selesai = true
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

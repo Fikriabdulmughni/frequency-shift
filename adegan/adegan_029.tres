@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://bdfujmstsyjh3"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_pkh2a"]
+
+[resource]
+script = ExtResource("1_pkh2a")
+durasi_jeda_gelap = 6.0
+teks_narasi = "CUT_029"
+aksi_animasi_1 = 2
+aksi_animasi_2 = 2
+kurva_audio = 0
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer2")
+aksi_audio_1 = 4
+fade_keluar_1 = 1.0
+akhir_potong_1 = 5.0
+audio_player_2 = NodePath("CanvasLayer/AudioPlayer3")
+audio_player_3 = NodePath("CanvasLayer/AudioPlayer4")
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

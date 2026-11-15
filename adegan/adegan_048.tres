@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://d4e8i55fh7uvs"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_ay573"]
+
+[resource]
+script = ExtResource("1_ay573")
+pakai_fade = true
+durasi_fade_masuk = 0.2
+durasi_jeda_gelap = 0.6
+durasi_fade_keluar = 0.8
+auto_lanjut = true
+jeda_auto_lanjut = 0.4
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

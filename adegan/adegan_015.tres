@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://bcb5hi3s5k5r1"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_p4i2w"]
+
+[resource]
+script = ExtResource("1_p4i2w")
+target_marker = NodePath("KameraMarker/Kamera2")
+teks_narasi = "CUT_015"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://bucciggp771me"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_5w8cd"]
+
+[resource]
+script = ExtResource("1_5w8cd")
+teks_narasi = "CUT_057"
+anim_player_1 = NodePath("cutscens3/AnimationPlayer")
+aksi_animasi_1 = 1
+nama_animasi_1 = "layar"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

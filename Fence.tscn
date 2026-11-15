@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dplvythsg3mep"]
+
+[ext_resource type="ArrayMesh" uid="uid://c7xrjxdqifrju" path="res://Pagar.tres" id="1_pb1vs"]
+
+[node name="Fence" type="Node3D" unique_id=45747103]
+
+[node name="Fence_K1" type="Node3D" parent="." unique_id=1133077191]
+
+[node name="Fence_K1_003" type="MeshInstance3D" parent="Fence_K1" unique_id=449043276]
+mesh = ExtResource("1_pb1vs")

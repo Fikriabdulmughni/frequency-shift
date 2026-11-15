@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://c22uw3tgghobq"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_77epw"]
+
+[resource]
+script = ExtResource("1_77epw")
+teks_narasi = "END_006"
+tunggu_teks_selesai = true
+anim_player_2 = NodePath("Cutscene/AnimationPlayer")
+aksi_animasi_2 = 1
+nama_animasi_2 = "walk2"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

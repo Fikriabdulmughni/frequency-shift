@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://c28mxea1dfuml"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_ovtw0"]
+
+[resource]
+script = ExtResource("1_ovtw0")
+target_marker = NodePath("cutscens3/Cam3")
+tipe_transisi = 2
+teks_narasi = "CUT_055"
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

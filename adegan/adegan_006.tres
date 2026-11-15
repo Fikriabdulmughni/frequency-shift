@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://k564kgypiu3k"]
+
+[ext_resource type="AudioStream" uid="uid://dikglkprvjrni" path="res://Audio/Money Sfx.mp3" id="1_pn04a"]
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="2_bo4gl"]
+
+[resource]
+script = ExtResource("2_bo4gl")
+target_marker = NodePath("KameraMarker/Kamera2")
+tipe_transisi = 1
+atur_posisi_objek_manual = true
+target_objek_node = NodePath("Pabrik/OmniLight3D")
+aksi_objek = 4
+teks_narasi = "CUT_006"
+anim_player_1 = NodePath("Character/Sketchfab_Scene/AnimationPlayer")
+aksi_animasi_1 = 1
+nama_animasi_1 = "stay"
+audio_player_1 = NodePath("CanvasLayer/AudioPlayer4")
+aksi_audio_1 = 1
+file_suara_1 = ExtResource("1_pn04a")
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

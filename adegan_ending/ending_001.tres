@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://d0pfn886awlq6"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_qiabk"]
+
+[resource]
+script = ExtResource("1_qiabk")
+target_marker = NodePath("Cutscene/Cam1")
+pakai_fade = true
+durasi_fade_masuk = 0.0
+metadata/_custom_type_script = "uid://b53a3khya3ynu"

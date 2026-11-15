@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://dydyusl7dbmup"]
+
+[ext_resource type="Script" uid="uid://5ko4w36wrjyb" path="res://panel_pengaturan.gd" id="1_1wjoi"]
+[ext_resource type="AudioStream" uid="uid://cku177rvu1ktj" path="res://Audio/Click.wav" id="2_tmpus"]
+[ext_resource type="FontFile" uid="uid://fomo86abavey" path="res://Font/jackwrite/JackwriteBold.woff2" id="2_u52j6"]
+[ext_resource type="Texture2D" uid="uid://4j36vhjd80ka" path="res://Img/button_square_wide.png" id="3_tmpus"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_g7b7a"]
+texture = ExtResource("3_tmpus")
+
+[node name="PanelPengaturan" type="Panel" unique_id=1815183219]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1wjoi")
+suara_tick = ExtResource("2_tmpus")
+ukuran_font_tab = 44
+ukuran_font_seksi = 39
+ukuran_font_label = 39
+ukuran_font_nilai = 39
+ukuran_font_pilihan = 39
+ukuran_font_toggle = 38
+ukuran_font_catatan = 40
+jarak_dalam_kotak = 35
+jarak_antar_baris_isi = 48
+ukuran_font_daftar = 37
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1753978590]
+custom_minimum_size = Vector2(400, 500)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -999.0
+offset_top = -272.0
+offset_right = -599.0
+offset_bottom = 228.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=581467492]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -173.0
+offset_top = 64.0
+offset_right = 185.0
+offset_bottom = 121.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_u52j6")
+theme_override_font_sizes/font_size = 66
+text = "PENGATURAN"
+
+[node name="SliderVolume" type="HSlider" parent="." unique_id=1058256690]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 16.0
+max_value = 1.0
+step = 0.01
+
+[node name="BtnKembali" type="Button" parent="." unique_id=1244107480]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 159.0
+offset_top = -177.0
+offset_right = 359.0
+offset_bottom = -117.0
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_u52j6")
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxTexture_g7b7a")
+text = "KEMBALI"
+
+[node name="LabelVolume" type="Label" parent="." unique_id=1767468238]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0

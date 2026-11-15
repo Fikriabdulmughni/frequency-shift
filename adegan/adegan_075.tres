@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ArsipAdegan" format=3 uid="uid://b2ue248kuai66"]
+
+[ext_resource type="Script" uid="uid://b53a3khya3ynu" path="res://ArsipAdegan.gd" id="1_yebmo"]
+
+[resource]
+script = ExtResource("1_yebmo")
+durasi_fade_keluar = 1.285
+teks_narasi = "CUT_075"
+tunggu_teks_selesai = true
+metadata/_custom_type_script = "uid://b53a3khya3ynu"
