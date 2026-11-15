@@ -30,7 +30,7 @@ The SHIFT theme is interpreted through radio frequency shifting. The signal you'
 ## How to Open the Project
 
 **Requirements:**
-- Godot **4.7.2** (Compatibility renderer)
+- Godot **4.7.2** Compability Rendering
 
 **Steps:**
 1. Clone this repo: `git clone https://github.com/Fikriabdulmughni/frequency-shift.git`
@@ -39,7 +39,7 @@ The SHIFT theme is interpreted through radio frequency shifting. The signal you'
 
 ## License
 
-- **Code, scenes, and original assets:** CC BY-NC 4.0.
+- **Code, scenes, and original assets:** All Right Reserved.
 - **Third-party assets:** follow their respective licenses, as listed in the Credits section.
 
 ## Credits
